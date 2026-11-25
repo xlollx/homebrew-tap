@@ -1,9 +1,9 @@
 cask "trackhop" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.1.5"
-  sha256 arm:   "f0d6cd45709e2009c039ec74a3f44d8e3e264bf734737cc9d0941d8b510113c9",
-         intel: "9c27e3cfc6faeb01d2b25f12059e6e0b3cc43e643efd9d4acc58b16b412dcaf6"
+  version "2.2.1"
+  sha256 arm:   "6ba5833d524ea03901b3ee92f5148620e3326970e193efe03e332c0fe4030cf3",
+         intel: "e8ee885e9a6f0871207cd2f3f183116c482c4b6d522c17eb6caaf6b156b512ff"
 
   url "https://github.com/xlollx/Trackhop/releases/download/server-v#{version}/Trackhop-Desktop-v#{version}-macos-#{arch}.dmg"
   name "Trackhop Desktop"
